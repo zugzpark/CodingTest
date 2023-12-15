@@ -2,7 +2,6 @@ function solution(s) {
     let answer = []
     
     s.split(' ').forEach(v => {
-        console.log(`${v} `)
         v.split('').forEach((w,i) =>{
             
             if(i%2==0){
