@@ -9,8 +9,8 @@ function solution(n, lost, reserve) {
     }
     reserve.sort()
     
-    //reserve중 앞뒤로 -1인것만 ++
 
+    //본인것 분실했는지 체크 후 lost에서 ++
     for(let j = 0 ; j<reserve.length ; j++){
     
         if(arr[reserve[j]-1]==-1){
@@ -19,6 +19,7 @@ function solution(n, lost, reserve) {
         }
     }
     
+    //reserve중 앞뒤로 -1인것만 ++
     for(let j = 0 ; j<reserve.length ; j++){
         if(arr[reserve[j]-1-1] && arr[reserve[j]-1-1]==-1 && !reserve[j]-1){
             arr[reserve[j]-1-1]++;
