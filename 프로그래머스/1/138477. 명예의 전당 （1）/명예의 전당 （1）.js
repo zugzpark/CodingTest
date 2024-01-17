@@ -13,6 +13,6 @@ function solution(k, score) {
         answer.push(Math.min(...lank))
     }
     
-        
+    // 배열을 이용해 풀이   
     return answer;
 }
