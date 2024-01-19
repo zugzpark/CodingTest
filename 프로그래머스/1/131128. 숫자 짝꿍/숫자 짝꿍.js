@@ -16,7 +16,7 @@ function solution(X, Y) {
             answer.push(arrX.pop())
             arrY.pop()
         }
-
+    //스택이용
     }
     return answer.length!=0?answer[0]==0?"0":answer.join(''):"-1";
 }
