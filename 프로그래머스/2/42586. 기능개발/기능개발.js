@@ -93,7 +93,7 @@ function solution(progresses, speeds) {
 
         q.pop()
     }
-
+    
     let result = temp.reduce((acc,cur) =>{
         acc.set(cur, (acc.get(cur)||0) +1);
         return acc
