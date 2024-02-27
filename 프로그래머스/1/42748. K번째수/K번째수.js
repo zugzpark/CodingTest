@@ -4,6 +4,7 @@ function solution(array, commands) {
     let startIndex=0;
     let endIndex=0;
     let commandsNum=0;
+    //고정값으로 간편하게 구현
     commands.forEach(val => val.forEach(v => 
                                         {
                                         count++;
