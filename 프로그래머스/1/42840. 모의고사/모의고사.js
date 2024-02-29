@@ -4,6 +4,7 @@ function solution(answers) {
     let num = [0,0,0]
     let answer = []
     
+    //배열로 고정값으로 탐색
     for(let i = 0 ; i<answers.length ; i++){
         
         if(answers[i]==temp[0][temp[0].length<=i?i%temp[0].length:i])num[0]++
