@@ -20,8 +20,8 @@ function solution(s) {
         map.set(key,value)
     }
     
-    //console.log(map.get('one'))
     
+    //map으로 단어가 존재하면 + 없으면 단어추가
     const word = s.split('')
     for(let i = 0 ; i<s.length ; i++){
         
